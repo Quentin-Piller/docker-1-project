@@ -1,0 +1,7 @@
+version: '3'
+services:
+  my_container:
+    image: img_1bcorrected
+    environment:
+      VAR_1: "Env variable for 1 from docker-compose"
+      VAR_2: "Env variable for 2 from docker-compose"
